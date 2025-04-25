@@ -1,7 +1,7 @@
 <div align="center">
 <h1>Hello, World ! I'm Petrvs. 🧠</h1>
 
-<p>Computer Science at <a href="https://www.sp.senac.br/" style="color:rgba(244,139,32,255), text-decoration-line: none;">Senac - São Paulo</a></p>
+<p>Computer Science at <a href="https://www.sp.senac.br/" style="color:blue;">Senac - São Paulo</a></p>
 <p>Cybersec Student.</p>
 <img src="https://img.shields.io/badge/TryHackMe-212C42?style=for-the-badge&logo=TryHackMe&logoColor=white" alt="TryHackMe">
 <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="Linkedin">
