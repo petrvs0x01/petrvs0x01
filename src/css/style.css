@@ -63,5 +63,9 @@ nav ul a:hover::after{
     height: 250px;
     padding-top: 100px;
     text-align: center;
+}
 
+.img{
+    height: 5px;
+    width: 5px;
 }
