@@ -1,3 +1,5 @@
+/* Default Colors: https://colorhunt.co/palette/f2f2f2eae4d5b6b09f000000*/
+
 @font-face {
     font-family: Oswald;
     src: url(../fonts/Oswald/Oswald-VariableFont_wght.ttf);
@@ -11,13 +13,13 @@
 
 body{
     background-color: #000000;
-    color:#ffffff;
+    color:#F2F2F2;
 
 }
 /* NAV BAR */
 a {
     text-decoration: none;
-    color:#EEEEEE;
+    color:#F2F2F2;
 }
 
 .logo {
@@ -25,11 +27,11 @@ a {
     text-transform: capitalize;
     font-size: 30px;
     font-family: Oswald;
+    color:#F2F2F2;
 }
 
 nav {
     display:flex;
-    color:#EEEBDD;
     justify-content:space-around;
     align-items: center;
     background-color: #000000;
@@ -50,7 +52,7 @@ nav {
 
 nav ul a::after{
     content: "";
-    background-color: #ca0202;
+    background-color: #EAE4D5;
     height: 2px;
     width:0%;
     display:block;
@@ -65,7 +67,7 @@ nav ul a:hover::after{
     padding: 35px;
     font-size: 30px;
     background-color: #000000;
-    color: #EEEEEE;
+    color: #B6B09F;
     width: 100vth;
     height: 250px;
     padding-top: 100px;
@@ -81,4 +83,22 @@ nav ul a:hover::after{
     font-weight: 600;
     font-size: 20px;
     margin-bottom: 15px;
+}
+/*Title Text*/
+.title{
+    display:block;
+    justify-content:space-around;
+    align-items: left;
+    height: 10vh;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin-left: 150px;
+    font-size: 25px;
+}
+
+
+
+/* FOOOOOTER */
+footer {
+    text-align: center;
 }
