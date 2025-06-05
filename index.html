@@ -1,39 +1,76 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Petrvsss</title>
-    <link rel="stylesheet" href="./src/css/style.css">
+    <title data-lang-pt="Meu Portfólio" data-lang-en="My Portfolio">Meu Portfólio</title>
+    <link rel="stylesheet" href="/src/css/style.css">
 </head>
 <body>
-    <section class="navigation">
-        <header>
-            <nav>
-                <a href="index.html" class="logo">0xPetrvs</a>
-                <ul class="nav-list">
-                    <li><a href="./src/html/about.html">About</a></li>
-                    <Li><a href="./src/html/articles.html">Articles</a></Li>
-                    <li><a href="./src/html/projects.html">Projects</a></li>
+
+    <header class="site-header">
+        <div class="controls-container">
+            <button id="theme-toggle" class="theme-toggle-button">
+                <span class="text-light-theme" data-lang-pt="Tema Escuro" data-lang-en="Dark Theme">Tema Escuro</span>
+                <span class="text-dark-theme" data-lang-pt="Tema Claro" data-lang-en="Light Theme">Tema Claro</span>
+            </button>
+
+            <div class="language-selector">
+                <a href="#" class="lang-option active" data-lang="pt">PT</a>
+                <span class="lang-separator">/</span>
+                <a href="#" class="lang-option" data-lang="en">EN</a>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="hero" class="hero-section">
+            <h1 class="hero-name">Petrvs Henricvs</h1>
+            <p class="hero-roles" data-lang-pt="Red Team | Offensive Security | CTF Player"
+                                  data-lang-en="Red Team | Offensive Security | CTF Player">
+                Red Team | Offensive Security | CTF Player
+            </p>
+
+            <nav class="main-navigation">
+                <ul class="nav-list" id="nav-list">
+                    <li class="nav-item">
+                        <a href="#languages" class="nav-link" data-lang-pt="Idiomas" data-lang-en="Languages">Idiomas</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#technologies" class="nav-link" data-lang-pt="Tecnologias" data-lang-en="Technologies">Tecnologias</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#knowledge" class="nav-link" data-lang-pt="Conhecimentos" data-lang-en="Knowledge">Conhecimentos</a>
+                    </li>
                 </ul>
             </nav>
-        </header>
-    </section>
-    <main>
-        <section class="apresentacao">
-            <p style="font-size: 45px;" class="logo">Petrvs Henricvs</p>
-            <p>Offensive Security | Red Team | CTF Player</p>
         </section>
-        <section class="redes">
-            <div class="icons">
-                <a href="https://github.com/0xPetrvs"><img src="./src/images/github.png" alt="github"></a>
-                <a href="https://www.linkedin.com/in/0xpetrvs/"><img src="./src/images/linkedin.png" alt="linkedin"></a>
-                <a href="https://www.youtube.com/@64petrvs"><img src="./src/images/youtube.png" alt="youtube"></a>
-            </div>
+
+        <section id="languages" class="content-section">
+            <h2 data-lang-pt="Idiomas" data-lang-en="Languages">Idiomas</h2>
+            <p data-lang-pt="Inglês Intermediário" data-lang-en="Intermediate English">Inglês Intermediário</p>
+            <p data-lang-pt="Português Nativo" data-lang-en="Native Portuguese">Português Nativo</p>
+        </section>
+
+        <section id="technologies" class="content-section">
+            <h2 data-lang-pt="Tecnologias" data-lang-en="Technologies">Tecnologias</h2>
+            <p data-lang-pt="Linguagem C" data-lang-en="C Language">Linguagem C</p>
+            <p data-lang-pt="Bash Scripting" data-lang-en="Bash Scripting">Bash Scripting</p>
+            <p data-lang-pt="Python3" data-lang-en="Python3">Python3</p>
+        </section>
+
+        <section id="knowledge" class="content-section">
+            <h2 data-lang-pt="Conhecimentos" data-lang-en="Knowledge">Conhecimentos</h2>
+            <p data-lang-pt="Redes TCP/IP" data-lang-en="TCP/IP Networks">Redes TCP/IP</p>
+            <p data-lang-pt="Vulnerabilidades Web" data-lang-en="Web Vulnerabilities">Vulnerabilidades Web</p>
+            <p data-lang-pt="Vulnerabilidades Infra e AD" data-lang-en="Infra & AD Vulnerabilities">Vulnerabilidades Infra e AD</p>
         </section>
     </main>
-    <footer>
-        <p>1337</p>
+
+    <footer class="site-footer-bottom">
+        1337
     </footer>
+
+    <script src="/src/js/script.js"></script>
 </body>
 </html>
