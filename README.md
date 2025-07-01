@@ -1,5 +1,5 @@
 
-|  |
+| <a href="https://github.com/petrvs0x01"><img align="center" src="https://github-readme-stats-rho-lilac-21.vercel.app/api?username=petrvs0x01&show_icons=true&theme=github_dark&hide_border=true" alt="petrvs's github stats" /></a> | <a href="https://github.com/petrvs0x01"><img align="center" src="https://github-readme-stats-rho-lilac-21.vercel.app/api/top-langs/?username=petrvs0x01&layout=compact&theme=github_dark&hide_border=true&hide=TeX" /></a> |
 | ------------- | ------------- |
 
 ## Contact
