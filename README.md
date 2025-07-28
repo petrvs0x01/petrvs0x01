@@ -4,7 +4,5 @@
 
 ## Contact
 For any questions, collaboration requests, or updates, feel free to reach out via:
-- **Telgram Contact**: [Contact Me](https://t.me/petrvs0x01)<br>
 - **Discord Contact**: [Contact Me](http://discordapp.com/users/1126673628122058752)<br>
-- **Linkedin Profile**: [Hire me :)](https://www.linkedin.com/in/0xpetrvs/)<br>
 - **Email**: [contact@petrvs](mailto:pethematician@gmail.com) <br>
